@@ -185,5 +185,5 @@
     <string name="high_touch_sensitivity_summary">Підвищити чутливість сенсорного екрану для користуванням пристроєм у рукавичках</string>
     <string name="touchscreen_hovering_title">Зависання над сенсорним екраном</string>
     <string name="touchscreen_hovering_summary">Дозволяє виділяти елементи інтерфейсу при зависанні над ними без дотику</string>
-    <string name="volume_link_notification_title">Зв'язати гучніть дзвінка та повідомлень</string>
+    <string name="volume_link_notification_title">Зв\'язати гучніть дзвінка та повідомлень</string>
 </resources>
