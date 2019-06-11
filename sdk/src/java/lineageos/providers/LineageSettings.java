@@ -923,15 +923,17 @@ public final class LineageSettings {
         /**
          * Display style of the status bar battery information
          * 0: Display the battery an icon in portrait mode
-         * 1: Display the battery as a circle
-         * 2: Display the battery as plain text
+         * 2: Display the battery as a circle
+         * 4: Hide the battery status information
+         * 5: Display the battery an icon in landscape mode
+         * 6: Display the battery as plain text
          * default: 0
          */
         public static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
         /** @hide */
         public static final Validator STATUS_BAR_BATTERY_STYLE_VALIDATOR =
-                new InclusiveIntegerRangeValidator(0, 2);
+                new DiscreteValueValidator(new String[] {"0", "2", "4", "5", "6"});
 
         /**
          * Status bar battery %
